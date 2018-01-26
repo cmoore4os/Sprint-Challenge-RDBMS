@@ -1,0 +1,20 @@
+{
+  "name": "Sprint-Challenge-RDBMS",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:cmoore4os/Sprint-Challenge-RDBMS.git",
+  "author": "cmoore4os <cm4glos@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "faker": "^4.1.0",
+    "knex": "^0.14.2",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.14.11",
+    "sqlite3": "^3.1.13"
+  }
+}
